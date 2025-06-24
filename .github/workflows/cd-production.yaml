@@ -21,7 +21,7 @@ jobs:
   deploay-job-production:
       needs: upload-job-production
       runs-on: ubuntu-latest
-      permission:
+      permissions:
         pages: write
         id-token: write
       envoirment: 
